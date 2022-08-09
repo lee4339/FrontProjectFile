@@ -1,0 +1,18 @@
+/* 기본 css 입력 */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  border: 0;
+}
+
+ul, li {
+  list-style: none;
+}
+
+body {
+  font-family: '맑은고딕';
+}
