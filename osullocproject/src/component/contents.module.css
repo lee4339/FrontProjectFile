@@ -1,0 +1,63 @@
+/* 컨텐츠헤더부분 */
+.contentsH {
+    box-sizing: border-box;
+    margin-top: 48px;
+    width: 100%;
+    height: 48px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.contentsH .notice {
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 3px;
+    width: 1200px;
+    height: 48px;
+    padding: 14px 16px;
+    display: flex;
+    background-color: brown;
+}
+
+.notice p {
+    width: 60px;
+    font-size: 14px;
+    margin-right: 12px;
+}
+
+.notice ul {
+    width: 1106.81px;
+    height: 20px;
+    line-height: 19.5px;
+}
+
+.notice ul li {
+    width: 1051.47px;
+    height: 21px;
+}
+
+.notice button {
+    position: absolute;
+    top: 14px;
+    right: 15px;
+}
+
+/* 컨텐츠 풋터부분 */
+.contensF {
+    margin: 80px 0 60px;
+    width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+}
+
+.contensF .imgbox {
+    box-sizing: border-box;
+    width: 1240px;
+    height: 180px;
+    padding: 0 20px;
+    background-color: aqua;
+}
+

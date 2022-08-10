@@ -1,6 +1,6 @@
 import React from "react";
 
-function MainImg() {
+function Story() {
     return (
         <div>
 
@@ -8,4 +8,4 @@ function MainImg() {
     )
 };
 
-export default MainImg
+export default Story;

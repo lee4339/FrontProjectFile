@@ -1,9 +1,10 @@
 import React from 'react';
 import './App.css';
-import {Route, Link} from 'react-router-dom';
-import MainImg from "./component/view/mainImg"
-import Contents from "./component/view/contents"
-import Footer from "./component/view/footer"
+import {Link} from 'react-router-dom';
+import MainImg from './component/mainImg';
+import Contents from './component/contents';
+import Footer from './component/footer';
+
 
 function App() {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 
-function Contents() {
+function BestProduct() {
     return (
         <div>
 
@@ -8,4 +8,4 @@ function Contents() {
     )
 };
 
-export default Contents
+export default BestProduct;
