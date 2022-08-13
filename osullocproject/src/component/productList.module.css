@@ -1,0 +1,26 @@
+.itemList {
+    display: flex;
+    width: 1240px;
+    height: 3173px;
+    margin:  0 auto;
+    margin-top: 100px;
+    background-color: bisque;
+}
+
+.itemBox {
+    display: flex;
+    width: 1240px;
+    height: 3173px;
+}
+
+.itemImg {
+    display: flex;
+    flex-direction: column;
+    width: 310px;
+    height: 509.5px;
+}
+
+.itemImg img {
+    width: 264px;
+    height: 295.25px;
+}

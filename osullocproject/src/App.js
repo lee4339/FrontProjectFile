@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import {Link} from 'react-router-dom';
-import MainImg from './component/mainImg';
-import Contents from './component/contents';
-import Footer from './component/footer';
+import {Link, Route} from 'react-router-dom';
+import MainPage from './main';
+import Product from './product';
+
 
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
           <h1 className='logo'><img src='' alt=''/>로고삽입</h1>
           <nav className='nav'>
             <ul>
-              <li className='nav1'><Link to="">제품</Link></li>
+              <li className='nav1'><Link to="/product">제품</Link></li>
               <li className='nav2'><Link to="">선물추천</Link></li>
               <li className='nav3'><Link to="">다다익선</Link></li>
               <li className='nav4'><Link to="">브랜드</Link></li>
@@ -38,10 +38,10 @@ function App() {
         </div>
       </div>
     </div>
+
     <div>
-      <MainImg/>
-      <Contents/>
-      <Footer/> 
+      <Route path='/' exact={true} component={MainPage}/>
+      <Route path='/product' component={Product}/>
     </div>
   </>
   );
