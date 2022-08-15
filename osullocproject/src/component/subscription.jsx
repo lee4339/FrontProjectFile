@@ -1,11 +1,12 @@
 import React from "react";
+import styles from "./subscription.module.css";
 
-function Subcription() {
+function Subscription() {
     return (
-        <div>
+        <div className={styles.subscription}>
 
         </div>
     )
 };
 
-export default Subcription;
+export default Subscription;

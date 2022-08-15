@@ -1,8 +1,9 @@
 import React from "react";
+import styles from "./story.module.css";
 
 function Story() {
     return (
-        <div>
+        <div className={styles.story}>
 
         </div>
     )

@@ -53,11 +53,10 @@
     justify-content: center;
 }
 
-.contensF .imgbox {
+.contensF img {
     box-sizing: border-box;
     width: 1240px;
     height: 180px;
-    padding: 0 20px;
-    background-color: aqua;
+    padding: 0 20px;    
 }
 

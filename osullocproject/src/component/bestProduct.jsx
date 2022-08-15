@@ -1,8 +1,9 @@
 import React from "react";
+import styles from "./bestProduct.module.css";
 
 function BestProduct() {
     return (
-        <div>
+        <div className={styles.bestProduct}>
 
         </div>
     )
