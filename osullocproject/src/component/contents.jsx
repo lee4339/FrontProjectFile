@@ -13,9 +13,9 @@ function Contents() {
                 <div className={styles.notice}>
                     <p>공지사항</p>
                     <ul>
-                        <li>배열로돌려야함</li>
+                        <li>공지사항 내용(리스트배열을 통해 애니메이션효과)</li>
                     </ul>
-                    <button>〉</button>
+                    <button type="button">〉</button>
                 </div>     
             </div>
             <div>

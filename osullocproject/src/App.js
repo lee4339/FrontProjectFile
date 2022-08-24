@@ -3,6 +3,9 @@ import './App.css';
 import {Link, Route} from 'react-router-dom';
 import MainPage from './main';
 import Product from './product';
+import { BiSearch } from "react-icons/bi";
+import { BiCart } from "react-icons/bi";
+import { BiDotsVerticalRounded } from "react-icons/bi";
 
 
 
@@ -13,21 +16,25 @@ function App() {
     <header className='header'>
       <div className='headerIn'>
         <div className='leftHeader'>
-          <h1 className='logo'><img src='./images/logo.png' alt=''/></h1>
-          <nav className='nav'>
-            <ul>
-              <li className='nav1'><Link to="/product">제품</Link></li>
-              <li className='nav2'><Link to="">선물추천</Link></li>
-              <li className='nav3'><Link to="">다다익선</Link></li>
-              <li className='nav4'><Link to="">브랜드</Link></li>
-            </ul>
-          </nav>
+          <div>
+            <h1 className='logo'><Link to="/" style={{textDecoration : 'none'}}><img src='./images/logo-white.png' alt=''/></Link></h1>
+          </div>
+          <div>
+            <nav className='nav'>
+              <ul>
+                <li className='nav1'><Link to="/product" style={{color : 'rgb(255, 255, 255)', fontWeight : '500', textDecoration : 'none'}}>제품</Link></li>
+                <li className='nav2'><Link to="" style={{color : 'rgb(255, 255, 255)', fontWeight : '500', textDecoration : 'none'}}>선물추천</Link></li>
+                <li className='nav3'><Link to="" style={{color : 'rgb(255, 255, 255)', fontWeight : '500', textDecoration : 'none'}}>다다일상</Link></li>
+                <li className='nav4'><Link to="" style={{color : 'rgb(255, 255, 255)', fontWeight : '500', textDecoration : 'none'}}>브랜드</Link></li>
+              </ul>
+            </nav>
+          </div>
         </div>
         <div className='rightHeader'>
           <ul className='navUtil'>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li className='icon-search'><BiSearch/></li>
+            <li className='icon-cart'><BiCart/></li>
+            <li className='icon-more'><BiDotsVerticalRounded/></li>
           </ul>
           <ul className='navDrop'>
             <li className='navDrop1'>로그인</li>
