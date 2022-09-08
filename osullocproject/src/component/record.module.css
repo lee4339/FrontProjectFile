@@ -1,5 +1,84 @@
 .record {
     width: 100%;
     height: 565.75px;
-    background-color: gold;
+    border-top: 1px solid rgb(246, 246, 246);
+}
+
+.record .recordBody {
+    margin: 0 auto;
+    margin-top: 60px;
+    width: 1712px;
+    height: 504.75px;
+}
+
+.recordBody .recordH {
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 1240px;
+    height: 71px;
+    padding: 0 20px;
+}
+
+.recordBody .recordM {
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 1280px;
+    height: 385.75px;
+    padding: 0 40px;
+    background-color: bisque;
+}
+
+.recordH h3 {
+    margin: 0;
+    width: 1200px;
+    height: 42px;
+    color: #333333;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 1.65;
+}
+
+.recordH p {
+    margin: 5px 0 0;
+    width: 1200px;
+    height: 24px;
+    color: #999999;
+    font-size: 14px;
+}
+
+.recordBody .recordF {
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 1240px;
+    height: 48px;
+    padding: 0 20px;
+}
+
+.recordF .btn {
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    height: 48px;
+}
+
+.btn button {
+    box-sizing: border-box;
+    width: 284.59px;
+    height: 48px;
+    padding: 0px 58px;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+.btn span {
+    width: 140.8px;
+    height: 15px;
+    font-size: 13px;
+    color: #666666;
+}
+
+.btn span::after {
+    margin-left: 6px;
+    content: ">";
 }

@@ -1,5 +1,9 @@
 import React from "react";
 import styles from "./bestProduct.module.css";
+import ItemSlider from "./itemSlider";
+
+
+
 
 function BestProduct() {
     return (
@@ -11,7 +15,9 @@ function BestProduct() {
                     <li className={styles.clickPop}>이번 주 인기 제품</li>
                 </ul>
             </div>
-            <div className={styles.bestM}></div>
+            <div className={styles.bestM}>
+                <ItemSlider/>
+            </div>
             <div className={styles.bestF}>
                 <button type="button" className={styles.more}><span>더 보기 ＞</span></button>
             </div>
