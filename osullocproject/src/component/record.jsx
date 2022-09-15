@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./record.module.css";
+import RecordSlider from "./recordSlider";
 
 function Record() {
     return (
@@ -9,7 +10,9 @@ function Record() {
                     <h3>다다일상 기록</h3>
                     <p>차를 통해 달라지는 일상을 만나보세요.</p>
                 </div>
-                <div className={styles.recordM}></div>
+                <div className={styles.recordM}>
+                    <RecordSlider/>
+                </div>
                 <div className={styles.recordF}>
                     <div className={styles.btn}>
                         <button>

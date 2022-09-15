@@ -58,7 +58,11 @@ function App() {
       <div className='footerH'>
         <div className='footerHBox'>
           <div className='footerLogin'>
-            로그인버튼부분
+            <div className='loginBtnF'><Link className='lbLink'>로그인</Link></div>
+            <div className='snsIcon'>
+              <Link><img src='images/facebookicon.png'/></Link>
+              <Link><img src='images/instagramicon.png'/></Link>
+            </div>
           </div>
         </div>
       </div>
@@ -71,13 +75,21 @@ function App() {
           </div>
           <div className='AdminInfo'>
             <div className='AdTitle'>특판, 대량구매 문의</div>
-            <div className='AdPhone'>help@osulloc.com</div>
+            <div className='AdEmail'>help@osulloc.com</div>
             <div className='AdMail'>
-              <span>카카오톡ID : osullocmall</span>
+              <span className='kakaoSpan'>카카오톡ID : osullocmall</span>
               <p><span>평일 09:30 - 17:00 (점심 11:30 - 13:00)</span></p>
             </div>
           </div>
-          <div className='footerServiceBox'>배열넣기</div>
+          <div className='footerServiceBox'>
+            <ul>
+              <li><Link className='fcLink'><img src='images/fc01.png'/><span>매장안내</span></Link></li>
+              <li><Link className='fcLink'><img src='images/fc02.png'/><span>멤버십혜택</span></Link></li>
+              <li><Link className='fcLink'><img src='images/fc03.png'/><span className='span02'>FAQ</span></Link></li>
+              <li><Link className='fcLink'><img src='images/fc04.png'/><span>1:1문의</span></Link></li>
+              <li><Link className='fcLink'><img src='images/fc05.png'/><span className='span04'>뷰티포인트<br/>추후적립</span></Link></li>
+            </ul>
+          </div>
         </div>
       </div>
       <div className='footerF'>
@@ -86,13 +98,24 @@ function App() {
             <img src='./images/f_logo.png' alt=''/>
           </div>
           <div className='brandInfo'>
-            <div className='bi1'>배열넣기</div>
+            <div className='bi1'>
+              <ul>
+                <li>회사소개</li>
+                <li>서비스 이용약관</li>
+                <li><b className='liB'>개인정보 처리방침</b></li>
+                <li>영상정보 처리방침</li>
+                <li>뷰티포인트</li>
+                <li>임직원할인</li>
+                <li>사이트맵</li>
+                <li>전자공고</li>
+              </ul>
+            </div>
             <div className='bi2'>
               <div className='biAddress'>
               ㈜ 오설록
               <br/>
               대표이사:서혁제 주소:서울특별시 용산구 한강대로 100, 14층(한강로2가) 사업자등록번호: 390-87-01499
-              <span>사업자 정보확인 〉</span>
+                <div className='infoBtn'>사업자 정보확인 〉</div>
               <br/>
               통신판매업신고번호:2019-서울용산-1173호 호스팅제공자: ㈜오설록
               <br/>
@@ -108,7 +131,7 @@ function App() {
               <div className='iBoxTitle'>(주)이니시스 구매안전서비스</div>
               <div className='iBoxMain'>
                 <img src='./images/INIPAY.png' alt=''/>
-                <div className='iBoxWrite'>고객님의 안전거래를 위해 현금 거래에 대해 이니페이 에스크로서비스를 이용하실 수 있습니다.</div>
+                <div className='iBoxWrite'>고객님의 안전거래를 위해 현금 거래에 대해 이니페이 에스크로서비스를 이용하실 수<br/> 있습니다.</div>
               </div>
             </div>
           </div>

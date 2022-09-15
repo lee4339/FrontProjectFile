@@ -69,8 +69,8 @@ export default class ItemSlider extends Component {
             infinite: true,
             speed: 100,
             arrows: true,
-            autoplay: false,
-            autoplaySpeed: 100,
+            autoplay: true,
+            autoplaySpeed: 3000,
             slidesToShow: 5,
             slidesToScroll: 1,
             centerMode: true,
@@ -80,16 +80,36 @@ export default class ItemSlider extends Component {
     return (
         <Styleddiv>
             <StyledSlide {...settings}>
-                <div style={{width: '240px',height: '250.13px'}}>1</div>
-                <div style={{width: '240px',height: '250.13px'}}>2</div>
-                <div style={{width: '240px',height: '250.13px'}}>3</div>
-                <div style={{width: '240px',height: '250.13px'}}>4</div>
-                <div style={{width: '240px',height: '250.13px'}}>5</div>
-                <div style={{width: '240px',height: '250.13px'}}>6</div>
-                <div style={{width: '240px',height: '250.13px'}}>7</div>
-                <div style={{width: '240px',height: '250.13px'}}>8</div>
-                <div style={{width: '240px',height: '250.13px'}}>9</div>
-                <div style={{width: '240px',height: '250.13px'}}>10</div>
+                <div style={{width: '240px',height: '250.13px'}}>
+                  <img src="images/allproducttest.png"/>1
+                </div>
+                <div style={{width: '240px',height: '250.13px'}}>
+                  <img src="images/allproducttest2.png"/>2
+                </div>
+                <div style={{width: '240px',height: '250.13px'}}>
+                  <img src="images/allproducttest.png"/>3
+                </div>
+                <div style={{width: '240px',height: '250.13px'}}>
+                  <img src="images/allproducttest2.png"/>4
+                </div>
+                <div style={{width: '240px',height: '250.13px'}}>
+                  <img src="images/allproducttest.png"/>5
+                </div>
+                <div style={{width: '240px',height: '250.13px'}}>
+                  <img src="images/allproducttest2.png"/>6
+                </div>
+                <div style={{width: '240px',height: '250.13px'}}>
+                  <img src="images/allproducttest.png"/>7
+                </div>
+                <div style={{width: '240px',height: '250.13px'}}>
+                  <img src="images/allproducttest2.png"/>8
+                </div>
+                <div style={{width: '240px',height: '250.13px'}}>
+                  <img src="images/allproducttest.png"/>9
+                </div>
+                <div style={{width: '240px',height: '250.13px'}}>
+                  <img src="images/allproducttest2.png"/>10
+                </div>
             </StyledSlide>
         </Styleddiv>
     )

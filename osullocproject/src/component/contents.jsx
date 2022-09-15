@@ -25,7 +25,13 @@ function Contents() {
                 <Record/>
             </div>
             <div className={styles.contensF}>
+                <div className={styles.museum}>
                     <img src="./images/contentsFooterImg.jpg" alt="" />
+                    <div className={styles.textBox}>
+                        <p>제주 티뮤지엄 티스톤</p>
+                        <button>예약하기</button>
+                    </div>
+                </div>
             </div>
         </>
     )

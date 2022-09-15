@@ -60,10 +60,52 @@
     justify-content: center;
 }
 
-.contensF img {
+.contensF .museum {
+    position: relative;
+    width: 1240px;
+    height: 180px;
+    padding: 0px 20px;
+}
+
+.museum img {
     box-sizing: border-box;
     width: 1240px;
     height: 180px;
     padding: 0 20px;    
 }
 
+.museum .textBox {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 45px;
+    left: 20px;
+    width: 1240px;
+    height: 92px;
+}
+
+.textBox p {
+    font-size: 27px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 1.6;
+    margin: 0px;
+    width: 1240px;
+    height: 45px;
+}
+
+.textBox button {
+    margin: 15px auto 0px;
+    width: 96px;
+    height: 32px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 4px;
+    color: white;
+    font-size: 13px;
+}
+
+.textBox button::after {
+    content: ">";
+    margin-left: 8px;
+}
